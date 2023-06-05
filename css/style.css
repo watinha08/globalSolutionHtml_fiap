@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #a3a3a3;
+}
+
+section {
+    padding: 50px;
+}
+
+.content {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(./cenario.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sobre h2 {
+    font-size: 90px;
+    margin-top: 40px;
+}
+
+.sobre p {
+    margin: 20px;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 26px;
+}
+
+footer {
+    background-color: #7a7a7a;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 30px;
+}
