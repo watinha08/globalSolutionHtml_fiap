@@ -1,43 +1,88 @@
 <!DOCTYPE html>
-<html lang="PT-br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ongoing Hope</title>
-
-    <link rel="shortcut icon" href="./images/svg/boy_icon.svg" type="image/x-icon">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@300;500&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="./css/styles.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <header class="header-page">
-        <h1>Ongoin Hope</h1>
-
-        <nav class="header-menu">
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <nav>
             <ul>
-                <li><a href="#header">Home</a></li>
-                <li><a href="#games">Games</a></li>
-                <li><a href="#promocoes">Promoções</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#section1">Início</a></li>
+                <li><a href="#section2">Sobre o Jogo</a></li>
+                <li><a href="#section3">Galeria de imagens</a></li>
+                <li><a href="#section4">Bt0</a></li>
+                <li><a href="#section5">Envolvidos</a></li>
             </ul>
         </nav>
+    </div>
 
-    </header>
+    <div class="content">
+        <img src="./images/nintendo.jpg" alt="Logo do Ongoing Hope">
+    </div>
 
-    <img src="./images/placeholder.png" alt="Logo do Ongoing Hope">
+    <div class="sobre">
+        <h2>Sobre o Jogo</h2>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor sapien non augue fringilla aliquam.
+        Proin feugiat, massa vel ullamcorper tincidunt, mi mi tincidunt purus, ac elementum ex ante id elit.</p>
+        
+    </div>
+    
+    <section id="section1">
+        <h2>Objetivos do Jogo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, mi sed rhoncus venenatis, nulla leo
+            consectetur erat, at sodales tellus felis in ante.</p>
+        </section>
+        
+        <section id="section2">
+            <h2>Público</h2>
+            <p>Nulla vel ante vel elit pharetra ultricies. Vestibulum dapibus nulla in mauris tincidunt ullamcorper. Nam id erat
+            risus.</p>
+        </section>
+        
+    <section id="section3">
+        <h2>Galeria de Imagens</h2>
+            
+        <div class="image-gallery">
+            <img src="./images/Obama.jpg" alt="Imagem 1" class="thumbnail">
+            <img src="./images/cat.jpg" alt="Imagem 2" class="thumbnail">
+            <img src="./images/dog.jpg" alt="Imagem 3" class="thumbnail">
+            <img src="./images/capy.webp" alt="Imagem 4" class="thumbnail">
+
+                
+            <div id="modal">
+                <span class="close">&times;</span>
+                <img src="" alt="" id="modal-image">
+            </div>
+        </div>
+    </section>
+            
+    <section id="section4">
+        <h2>Como irá Funcionar</h2>
+        <p>Morbi at eros varius, ullamcorper sapien a, aliquam nunc. Sed in neque malesuada, viverra urna et, facilisis est. Nulla dapibus interdum nibh, id feugiat felis dictum eget.</p>
+    </section>
+                
+    <section id="section5">
+        <h2>Vinculo com o Desafio</h2>
+        <p>Praesent eget tortor nec elit cursus malesuada. Proin eget aliquet dolor, ac consequat mi. Quisque fringilla mi
+        felis, sed venenatis ex fermentum in.</p>
+    </section>
+                    
+    <script src="script.js"></script>
+                    
+    <footer>
+        <h1>Integrantes:</h1>               
+        <p>Leonardo Hisao Watanabe Silva 98931 <br>
+            Tiago Marchetti Lyra 94633 <br>
+           Guilherme Yamaguchi Moura 550254
+        </p>
+    </footer>
 </body>
 
 </html>
