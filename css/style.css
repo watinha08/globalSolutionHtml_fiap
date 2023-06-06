@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    background-color: #a3a3a3;
-    scroll-behavior: smooth;
+    background-image: linear-gradient(rgb(49, 49, 49), rgb(197, 197, 197), rgb(53, 53, 53));
 }
 
 section {
@@ -13,8 +16,8 @@ section {
 }
 
 .content {
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 312px;
+    padding-bottom: 312px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
