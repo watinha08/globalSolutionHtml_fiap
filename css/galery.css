@@ -42,13 +42,3 @@
     right: 40px;
     cursor: pointer;
 }
-
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.image {
-    width: 370px;
-    margin-right: 20px;
-}
